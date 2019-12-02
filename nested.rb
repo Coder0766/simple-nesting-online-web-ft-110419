@@ -20,8 +20,7 @@ end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-programmer_hash[:alan_kay][:known_for]["Object Orientation"]
-	programmer_hash =
+			programmer_hash =
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -36,6 +35,7 @@ programmer_hash[:alan_kay][:known_for]["Object Orientation"]
           :languages => ["C"]
         }
      }
+		 programmer_hash[:alan_kay][:known_for]["Object Orientation"]
 end
 
 def dennis_ritchies_language
